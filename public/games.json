@@ -1,0 +1,132 @@
+{
+  "games": [
+    {
+      "id": "lego_batman_2",
+      "title": "LEGO Batman 2: DC Super Heroes",
+      "executable": "LEGOBatman2.exe",
+      "icon": "lego_batman_2.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_the_lord_of_the_rings",
+      "title": "LEGO The Lord of the Rings",
+      "executable": "LEGO_LOTR.exe",
+      "icon": "lego_the_lord_of_the_rings.ico",
+      "mouse_profile": { "threshold": 4, "return_speed": 5 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_city_undercover",
+      "title": "LEGO City Undercover",
+      "executable": "LEGOCityU.exe",
+      "icon": "lego_city_undercover.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_marvel_super_heroes",
+      "title": "LEGO Marvel Super Heroes",
+      "executable": "LEGOMarvel.exe",
+      "icon": "lego_marvel_super_heroes.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "the_lego_movie_videogame",
+      "title": "The LEGO Movie Videogame",
+      "executable": "LEGO_Movie.exe",
+      "icon": "the_lego_movie_videogame.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_the_hobbit",
+      "title": "LEGO The Hobbit",
+      "executable": "LEGOHobbit.exe",
+      "icon": "lego_the_hobbit.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_batman_3",
+      "title": "LEGO Batman 3: Beyond Gotham",
+      "executable": "LEGOBatman3.exe",
+      "icon": "lego_batman_3.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_jurassic_world",
+      "title": "LEGO Jurassic World",
+      "executable": "LEGOJurassicWorld.exe",
+      "icon": "lego_jurassic_world.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_marvels_avengers",
+      "title": "LEGO Marvel's Avengers",
+      "executable": "LEGO_Avengers.exe",
+      "icon": "lego_marvels_avengers.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_star_wars_the_force_awakens",
+      "title": "LEGO Star Wars: The Force Awakens",
+      "executable": "LEGO_TFA.exe",
+      "icon": "lego_star_wars_the_force_awakens.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "the_lego_ninjago_movie_video_game",
+      "title": "The LEGO Ninjago Movie Video Game",
+      "executable": "LEGONinjago.exe",
+      "icon": "the_lego_ninjago_movie_video_game.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_marvel_super_heroes_2",
+      "title": "LEGO Marvel Super Heroes 2",
+      "executable": "LEGOMarvel2.exe",
+      "icon": "lego_marvel_super_heroes_2.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_the_incredibles",
+      "title": "LEGO The Incredibles",
+      "executable": "LEGOIncredibles.exe",
+      "icon": "lego_the_incredibles.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_dc_super_villains",
+      "title": "LEGO DC Super-Villains",
+      "executable": "LEGODC.exe",
+      "icon": "lego_dc_super_villains.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "lego_worlds",
+      "title": "LEGO Worlds",
+      "executable": "LEGOWorlds.exe",
+      "icon": "lego_worlds.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    },
+    {
+      "id": "the_lego_movie_2_videogame",
+      "title": "The LEGO Movie 2 Videogame",
+      "executable": "LEGOMovie2.exe",
+      "icon": "the_lego_movie_2_videogame.ico",
+      "mouse_profile": { "threshold": 3, "return_speed": 4 },
+      "keys": { "attack": "H", "special": "J" }
+    }
+  ]
+}

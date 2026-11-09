@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Maida Brick Mapper</title>
+		<link rel="stylesheet" href="/src/styles.css" />
+		<script type="module" src="/src/main.ts" defer></script>
+	</head>
+	<body class="m-0 flex flex-col h-screen overflow-hidden text-[#0f0f0f] bg-[#f6f6f6] dark:text-[#f6f6f6] dark:bg-[#2f2f2f] font-sans antialiased">
+		<!-- Responsive Grid Game List (Main View) -->
+		<main id="main-view" class="flex-1 p-5 overflow-y-auto">
+            <!-- Settings Icon placed floating top-right within the main view for quick access -->
+            <div class="flex justify-end mb-4">
+                <button id="btn-open-settings" class="flex items-center gap-1.5 px-4 py-2 rounded-lg border border-transparent text-sm font-medium bg-white dark:bg-[#1f1f1f] text-[#0f0f0f] dark:text-white shadow-sm cursor-pointer transition-colors duration-250 outline-none hover:border-[#396cd8] active:border-[#396cd8] active:bg-[#e8e8e8] dark:active:bg-[#333]">
+                    ⚙️ <span data-i18n="app.settings">Settings</span>
+                </button>
+            </div>
+			<div id="game-list" class="grid grid-cols-[repeat(auto-fill,minmax(110px,1fr))] gap-4 justify-items-center w-full"></div>
+		</main>
+
+        <!-- Settings View (Hidden by default) -->
+        <section id="settings-view" class="hidden flex-1 p-8 overflow-y-auto w-full h-full bg-[#f6f6f6] dark:bg-[#2f2f2f] absolute top-0 left-0 z-50">
+            <div class="max-w-2xl mx-auto">
+                <div class="flex justify-between items-center mb-8 border-b border-[#ccc] dark:border-[#444] pb-4">
+                    <h2 data-i18n="app.settings" class="text-2xl font-bold">Settings</h2>
+                    <button id="btn-close-settings" class="text-xl font-bold px-3 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                        ✕
+                    </button>
+                </div>
+                
+                <!-- Settings Content -->
+                <div class="space-y-6">
+                    <!-- Language Selection -->
+                    <div class="flex flex-col gap-2">
+                        <label for="language-selector" data-i18n="settings.language" class="font-medium">Language / Idioma:</label>
+                        <select id="language-selector" class="p-2 w-64 rounded border border-gray-300 dark:border-[#444] bg-white dark:bg-[#1f1f1f] text-[#0f0f0f] dark:text-white shadow-sm outline-none focus:border-[#396cd8] transition-colors">
+                            <option value="en">English</option>
+                            <option value="pt">Português</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+	</body>
+</html>
