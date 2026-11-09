@@ -2,7 +2,7 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 use std::process::Command;
-use tauri::{Manager, path::BaseDirectory};
+use tauri::{Manager, /*path::BaseDirectory */};
 
 #[tauri::command]
 fn launch_game_script(app_handle: tauri::AppHandle, executable_name: &str) -> Result<String, String> {
